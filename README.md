@@ -1,4 +1,4 @@
-# Coding Interview University
+# Coding Interview Preparation
 
 ## What is it?
 
@@ -122,9 +122,9 @@ This is my multi-month study plan for my **interview preparation** going from we
 
 ## Interview Process & General Interview Prep
 
-- [ ] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
-- [ ] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
-- [ ] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
+- [x] [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+- [x] [Whiteboarding](https://medium.com/@dpup/whiteboarding-4df873dbba2e#.hf6jn45g1)
+- [x] [Demystifying Tech Recruiting](https://www.youtube.com/watch?v=N233T0epWTs)
 - [ ] How to Get a Job at the Big 4:
     - [ ] [How to Get a Job at the Big 4 - Amazon, Facebook, Google & Microsoft (video)](https://www.youtube.com/watch?v=YJZCUhxNCv8)
 - [ ] Cracking The Coding Interview Set 1:
@@ -1002,8 +1002,6 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 ## Coding Question Practice
 
-Now that you know all the computer science topics above, it's time to practice answering coding problems.
-
 **Coding question practice is not about memorizing answers to programming problems.**
 
 Why you need to practice doing programming problems:
@@ -1017,13 +1015,6 @@ Why you need to practice doing programming problems:
 There is a great intro for methodical, communicative problem solving in an interview. You'll get this from the programming
 interview books, too, but I found this outstanding:
 [Algorithm design canvas](http://www.hiredintech.com/algorithm-design/)
-
-No whiteboard at home? That makes sense. I'm a weirdo and have a big whiteboard. Instead of a whiteboard, pick up a
-large drawing pad from an art store. You can sit on the couch and practice. This is my "sofa whiteboard".
-I added the pen in the photo for scale. If you use a pen, you'll wish you could erase. Gets messy quick. I use a pencil 
-and eraser.
-
-![my sofa whiteboard](https://d3j2pkmjtin6ou.cloudfront.net/art_board_sm_2.jpg)
 
 Supplemental:
 
@@ -1044,7 +1035,6 @@ See [Book List above](#book-list)
 
 ## Coding exercises/challenges
 
-Once you've learned your brains out, put those brains to work.
 Take coding challenges every day, as many as you can.
 
 - [How to Find a Solution](https://www.topcoder.com/community/competitive-programming/tutorials/how-to-find-a-solution/)
@@ -1659,8 +1649,6 @@ Sit back and enjoy. "Netflix and skill" :P
 
 - [OOSE: Software Dev Using UML and Java (21 videos)](https://www.youtube.com/playlist?list=PLJ9pm_Rc9HesnkwKlal_buSIHA-jTZMpO)
 
-- ~~[UC Berkeley CS 152: Computer Architecture and Engineering (20 videos)](https://www.youtube.com/watch?v=UH0QYvtP7Rk&index=20&list=PLkFD6_40KJIwEiwQx1dACXwh-2Fuo32qr)~~
-
 - [MIT 6.004: Computation Structures (49 videos)](https://www.youtube.com/playlist?list=PLDSlqjcPpoL64CJdF0Qee5oWqGS6we_Yu)
 
 - [Carnegie Mellon - Computer Architecture Lectures (39 videos)](https://www.youtube.com/playlist?list=PL5PHm2jkkXmi5CxxI7b3JCL1TWybTDtKq)
@@ -1731,7 +1719,3 @@ Sit back and enjoy. "Netflix and skill" :P
 - [2015: How Developers Search for Code: A Case Study](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
 - [2016: Borg, Omega, and Kubernetes](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44843.pdf)
 
-
-## LICENSE
-
-[CC-BY-SA-4.0](./LICENSE.txt)
