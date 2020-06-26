@@ -21,7 +21,13 @@ SList class used in [here](./singly-list.java), enforces ADT (Abstract data type
 1. size is always correct.
 2. list is never circularly linked
 
-Both of these goals are aaccomplished because only SList methods can change the lists.
+Both of these goals are accomplished because only SList methods can change the lists.
+
+---
+
+While implementing doubly or singly linked list, we use can use Sentinel. It s a dummy node that goes at the front of a list. Node points to the first and last elements of the list. Mediates the communication between the user and the implementation of the data structure. This makes the linked list cyclic, and sentinel node becomes terminating condition. This approach eliminates the null pointer reference.
+
+![Sentinel example](https://i.stack.imgur.com/nlX1F.png)
 
 ---
 

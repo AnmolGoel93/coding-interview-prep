@@ -4,6 +4,8 @@
 
 This is my multi-month study plan for my **interview preparation** going from web developer (self-taught, no CS degree) to software engineer for a large company.
 
+Implimentation of these concepts by me are [here](./Code%20Samples)
+
 Credit: Inspired by [jwasham](https://github.com/jwasham)
 
 ---
@@ -11,6 +13,7 @@ Credit: Inspired by [jwasham](https://github.com/jwasham)
 ## Table of Contents
 
 - [Interview Process & General Interview Prep](#interview-process--general-interview-prep)
+- [Online Courses](#courses)
 - [Book List](#book-list)
 - [Prerequisite Knowledge](#prerequisite-knowledge)
 - [Algorithmic complexity / Big-O / Asymptotic analysis](#algorithmic-complexity--big-o--asymptotic-analysis)
@@ -118,7 +121,6 @@ Credit: Inspired by [jwasham](https://github.com/jwasham)
 - [Papers](#papers)
 
 ---
-
 
 ## Interview Process & General Interview Prep
 
@@ -256,7 +258,7 @@ OR:
 ## Data Structures
 
 - ### Arrays
-    - Implement an automatically resizing vector.
+    1. Implement an automatically resizing vector.
     - [x] Description:
         - [x] [Arrays (video)](https://www.coursera.org/lecture/data-structures/arrays-OsBSF)
         - [x] [UC Berkeley CS61B - Linear and Multi-Dim Arrays (video)](https://archive.org/details/ucberkeley_webcast_Wp8oiO_CZZE) (Start watching from 15m 32s)
@@ -266,8 +268,8 @@ OR:
         - [x] [Jagged Arrays (video)](https://www.youtube.com/watch?v=1jtrQqYpt7g)
         - [x] [Jagged Arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/02_06-jaggedArrays.mp4)
         - [x] [Resizing arrays (video)](https://archive.org/details/0102WhatYouShouldKnow/03_01-resizableArrays.mp4)
-    - <details>
-        <summary>Implement a vector (mutable array with automatic resizing):</summary>
+    3. <details>
+        <summary><input type="checkbox"> Implement a vector (mutable array with automatic resizing):</summary>
         
         - [ ] Practice coding using arrays and pointers, and pointer math to jump to an index instead of using indexing.
         - [ ] new raw data array with allocated memory
@@ -301,16 +303,17 @@ OR:
         - [x] [Singly Linked Lists (video)](https://www.coursera.org/lecture/data-structures/singly-linked-lists-kHhgK)
         - [x] [CS 61B - Linked Lists 1 (video)](https://archive.org/details/ucberkeley_webcast_htzJdKoEmO0)
         - [x] [CS 61B - Linked Lists 2 (video)](https://archive.org/details/ucberkeley_webcast_-c4I3gFYe3w)
-    - [ ] Linked List vs Arrays:
+    - [x] Linked List vs Arrays:
         - [Core Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-linked-lists-vs-arrays-rjBs9)
         - [In The Real World Linked Lists Vs Arrays (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/in-the-real-world-lists-vs-arrays-QUaUd)
-    - [ ] [why you should avoid linked lists (video)](https://www.youtube.com/watch?v=YQs6IC-vgmo)
-    - [ ] Gotcha: you need pointer to pointer knowledge:
+
+    - [ ] [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html) 
+        Gotcha: you need pointer to pointer knowledge:
         (for when you pass a pointer to a function that may change the address where that pointer points)
         This page is just to get a grasp on ptr to ptr. I don't recommend this list traversal style. Readability and maintainability suffer due to cleverness.
-        - [Pointers to Pointers](https://www.eskimo.com/~scs/cclass/int/sx8.html)
-    - <details>
-        <summary>Implement (I did with tail pointer & without):</summary>
+
+    4. <details>
+        <summary><input type="checkbox"> Implement (I did with tail pointer & without):</summary>
         
         - [ ] size() - returns number of data elements in list
         - [ ] empty() - bool returns true if empty
@@ -326,12 +329,8 @@ OR:
         - [ ] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
         - [ ] reverse() - reverses the list
         - [ ] remove_value(value) - removes the first item in the list with this value
-
+        <br>
         </details>
-    
-    - [ ] Doubly-linked List
-        - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
-        - No need to implement
 
 - ### Stack
     - [ ] [Stacks (video)](https://www.coursera.org/lecture/data-structures/stacks-UdKzQ)
