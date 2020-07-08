@@ -341,8 +341,8 @@ OR:
 
   - [x] [Using Queues First-In First-Out(video)](https://archive.org/details/0102WhatYouShouldKnow/05_03-usingQueuesForFirst-inFirst-out.mp4)
   - [x] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
-  - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-  - [ ] [Priority Queues (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
+  - [x] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+  - [x] [Priority Queues (video)](https://archive.org/details/0102WhatYouShouldKnow/05_04-priorityQueuesAndDeques.mp4)
   - [ ] Implement using linked-list, with tail pointer:
     - enqueue(value) - adds value at position at tail
     - dequeue() - returns value and removes least recently added element (front)
@@ -363,7 +363,7 @@ OR:
 
   - [ ] Videos:
 
-    - [ ] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
+    - [x] [Hashing with Chaining (video)](https://www.youtube.com/watch?v=0M_kIqhwbFo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=8)
     - [ ] [Table Doubling, Karp-Rabin (video)](https://www.youtube.com/watch?v=BRO7mVIFt08&index=9&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [Open Addressing, Cryptographic Hashing (video)](https://www.youtube.com/watch?v=rvdJDijO2Ro&index=10&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
     - [ ] [PyCon 2010: The Mighty Dictionary (video)](https://www.youtube.com/watch?v=C4Kc8xzcA68)
@@ -431,12 +431,12 @@ OR:
 
 - ### Trees - Notes & Background
 
-  - [ ] [Series: Core Trees (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-trees-ovovP)
-  - [ ] [Series: Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
-  - basic tree construction
-  - traversal
-  - manipulation algorithms
-  - [ ] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
+  - [x] [Series: Core Trees (video)](https://www.coursera.org/lecture/data-structures-optimizing-performance/core-trees-ovovP)
+  - [x] [Series: Trees (video)](https://www.coursera.org/lecture/data-structures/trees-95qda)
+  - [ ] basic tree construction
+  - [ ] traversal
+  - [ ] manipulation algorithms
+  - [x] [BFS(breadth-first search) and DFS(depth-first search) (video)](https://www.youtube.com/watch?v=uWL6FJhq5fM)
     - BFS notes:
       - level order (BFS, using queue)
       - time complexity: O(n)
@@ -447,8 +447,8 @@ OR:
         best: O(log n) - avg. height of tree
         worst: O(n)
       - inorder (DFS: left, self, right)
-      - postorder (DFS: left, right, self)
       - preorder (DFS: self, left, right)
+      - postorder (DFS: left, right, self)
 
 - ### Binary search trees: BSTs
 
