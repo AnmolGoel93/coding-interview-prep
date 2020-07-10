@@ -86,7 +86,7 @@ class Main {
       System.out.println("Anagram");
     }
     else {
-      System.out.println("Npt Anagram");
+      System.out.println("Not Anagram");
     }
   }
 }
